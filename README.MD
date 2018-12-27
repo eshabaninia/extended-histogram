@@ -6,10 +6,13 @@ The following code is based on Matlab R2014a, and libsvm-3.21.
 note: svmtrain.mex and svmpredict.mex are renamed to libsvmtrain.mex and libsvmpredict.mex
 
 ## Installation
-1. $ git clone https://github.com/eshabaninia/extended-histogram.git
+1.Download and unzip datasets ('CAD60','UTKinect-Action3D','KARD' have been prepared in data folder):
+https://www.dropbox.com/s/w06l38ds7zmoq6s/data.rar?dl=0
 
-2. Open Matlab, and run "HumanActionRecognition.m" from code directory.
-You can change different parameters such as dataset ('CAD60','UTKinect-Action3D','KARD' have been prepared in data folder), hirarchialLevels (1,2,3 or 4)and setup('lOPOCV', 'lOSOCV',…).
+2. $ git clone https://github.com/eshabaninia/extended-histogram.git
+
+3. Open Matlab, and run "HumanActionRecognition.m" from code directory.
+You can change different parameters such as dataset , hirarchialLevels (1,2,3 or 4)and setup('lOPOCV', 'lOSOCV',â€¦).
 
 
 ## Citation
